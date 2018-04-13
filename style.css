@@ -1,0 +1,24 @@
+	h1 {
+		font-family: "Poiret One", cursive;
+	}		
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(header.jpg);
+    background-position: 0% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
